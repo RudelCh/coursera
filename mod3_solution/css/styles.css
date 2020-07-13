@@ -1,0 +1,56 @@
+
+
+#main_menu {
+  background: white;
+  margin-top: 0px;
+  margin-bottom:  0px;
+  border: 1px solid black;
+}
+#main_menu a {
+  /*color: #951C49;*/
+  text-align: center;
+  /*border-bottom:  1px solid black;*/
+}
+#main_menu a:hover {
+  background: #E7E7E7;
+}
+#main_menu li:nth-child(1),#main_menu li:nth-child(2)
+{
+ border-bottom:  1px solid black;
+ margin-left: 5px;
+ margin-right:  5px;
+}
+
+
+.content
+{
+	background: #C0C0C0;/* #f8f8f8;*/
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+
+	
+}
+.content p
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 20px 0px 20px;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #C0C0C0; 
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus .icon-bar {
+    border: 1px solid white;
+}
+
+
+#nav_setting
+{
+	background: #C0C0C0;
+}
