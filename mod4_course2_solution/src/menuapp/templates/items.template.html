@@ -1,0 +1,8 @@
+<p>
+	Category: {{ $ctrl.items.category.short_name }}   {{ $ctrl.items.category.name }}
+</p>
+<ul>
+  <li ng-repeat="item in $ctrl.items.menu_items">
+    {{ item.short_name }}   {{ item.name }}
+  </li>
+</ul>
